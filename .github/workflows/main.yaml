@@ -25,3 +25,6 @@ jobs:
         run: |
           echo $SECRET_ONE
           echo $SECRET_TWO
+
+      - name: Next action
+        run: echo 123
