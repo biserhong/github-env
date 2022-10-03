@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: staging
+    environment: new-env
 
     env:
       SECRET_ONE: ${{ secrets.SECRET_ONE }}
