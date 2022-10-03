@@ -23,5 +23,5 @@ jobs:
 
       - name: Check secrets available
         run: |
-          echo SECRET_ONE
-          echo SECRET_TWO
+          echo $SECRET_ONE
+          echo $SECRET_TWO
